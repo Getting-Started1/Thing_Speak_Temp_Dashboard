@@ -2,13 +2,13 @@
 #include "ThingSpeak.h"
 #include <DHT.h>
 
-const char* ssid = "Kinuthia";   // your network SSID (name) 
-const char* password = "m@!n!90!";   // your network password
+const char* ssid = "";   // your network SSID (name) 
+const char* password = ";   // your network password
 
 WiFiClient client;
 
 unsigned long myChannelNumber = 1;
-const char* myWriteAPIKey = "92M4X5MZCD5HHXY6";
+const char* myWriteAPIKey = "";
 
 // Timer variables
 unsigned long lastTime = 0;
